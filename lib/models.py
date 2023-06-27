@@ -9,7 +9,7 @@ class Menu(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     item_name = db.Column(db.String)
     price = db.Column(db.Float)
-    picture = db.Column(db.String)
+    description = db.Column(db.String)
     
 
     order_items= db.relationship('Order', backref = 'menu')
@@ -28,7 +28,7 @@ class Customer(db.Model):
     street_address = db.Column(db.String)
     city = db.Column(db.String)
     state = db.Column(db.String)
-    zip_code = db.Column(db.Integer)
+    zip_code = db.Column(db.String)
 
     customer_orders = db.relationship('Order', backref = 'customer')
 
