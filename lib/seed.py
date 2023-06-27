@@ -70,28 +70,6 @@ if __name__ == '__main__':
 
 
 
-        # customers = [
-        #     Customer (
-                # first_name = "Jane"
-                # last_name = "Doe"
-                # email_address = "JDoe@gmail.com"
-                # street_address = "123"
-                # city = 
-                # state = 
-                # zip_code = 
-        #     ),
-        #     Customer (
-        #         person_id = 1,
-        #         pet_id = 2
-        #     ),
-        #     Customer (
-        #         person_id = 2,
-        #         pet_id = 3
-        #     )
-        # ]
-
-        # db.session.add_all(customers)
-
         # commit CREATE - UPDATE - DELETE actions
         db.session.commit()
 
