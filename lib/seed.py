@@ -15,34 +15,34 @@ if __name__ == '__main__':
 
         items = [
             Menu (
-                item_name = "Plain Pizza",
-                price = 3.00,
-                description= "Mmm plain pizza."
+                item_name = "Mozzarella Pizza",
+                price = 3.15,
+                description= "This pizza will satisfy even the pickiest tastebuds....Mmmmm plain pizza."
             ), 
             Menu (
                 item_name = "Pepperoni Pizza",
-                price = 3.50,
-                description= "Plain pizza with pepperoni on top."
+                price = 3.45,
+                description= "Our classic plain pizza topped with the finest imported pepperoni's on the market."
             ),
             Menu (
                 item_name = "Veggie Pizza",
                 price = 3.75,
-                description= "Plain pizza with veggies on top."
+                description= "For our veggie lovers out there! This pizza is topped with five different vegetables! Hand picked each week from our local Farmers Market;."
             ),
             Menu (
                 item_name = "Supreme Pizza",
-                price = 3.75,
-                description= "Plain pizza with pepperoni, sausage, mushrooms, peppers, red onions, cheese."
+                price = 4.75,
+                description= " A good choice for the carnivore in the room! This pizza is loaded with pepperoni, sausage, mushrooms, peppers, red onions and cheese."
             ),
             Menu (
                 item_name = "Margherita Pizza",
-                price = 3.90,
-                description= "Plain pizza with fresh mozzarella topped with the farm fresh tomatoes and fresh basil."
+                price = 3.99,
+                description= "This pizza gets our special in house rosemary crust topped with mozzarella, thinly sliced heirloom tomatoes and fresh basil."
             ),
             Menu (
                 item_name = "BBQ Chicken",
-                price = 4.05,
-                description= "Plain pizza with BBQ Chicken."
+                price = 4.55,
+                description= "The world has been waiting for this pizza.... Slow marinated BBQ chicken atop a bed of melted mozzarella!"
             )
         ]
 
