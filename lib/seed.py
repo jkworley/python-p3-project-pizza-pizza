@@ -70,8 +70,7 @@ if __name__ == '__main__':
 
 
 
-        # commit CREATE - UPDATE - DELETE actions
+        
         db.session.commit()
 
-        # for i in Menu.query.all():
-        #     print(i.description)
+     
