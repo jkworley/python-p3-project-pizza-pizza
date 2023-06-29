@@ -5,7 +5,6 @@ from faker import Faker
 
 fake = Faker()
 
-
 if __name__ == '__main__':
     with app.app_context():
 
@@ -32,7 +31,7 @@ if __name__ == '__main__':
             Menu (
                 item_name = "Supreme Pizza",
                 price = 4.75,
-                description= " A good choice for the carnivore in the room! This pizza is loaded with pepperoni, sausage, mushrooms, peppers, red onions and cheese."
+                description= "A good choice for the carnivore in the room! This pizza is loaded with pepperoni, sausage, mushrooms, peppers, red onions and cheese."
             ),
             Menu (
                 item_name = "Margherita Pizza",
@@ -40,7 +39,7 @@ if __name__ == '__main__':
                 description= "This pizza gets our special in house rosemary crust topped with mozzarella, thinly sliced heirloom tomatoes and fresh basil."
             ),
             Menu (
-                item_name = "BBQ Chicken",
+                item_name = "BBQ Chicken Pizza",
                 price = 4.55,
                 description= "The world has been waiting for this pizza.... Slow marinated BBQ chicken atop a bed of melted mozzarella!"
             )
@@ -49,7 +48,6 @@ if __name__ == '__main__':
         # add objects to db
         db.session.add_all(items)
 
-        
         customer = []
 
         for i in range (5):
@@ -63,14 +61,10 @@ if __name__ == '__main__':
                 zip_code = fake.postcode()
             )
             
-
             customer.append(fake_customer)
 
         db.session.add_all(customer)
 
-
-
-        
         db.session.commit()
 
      
