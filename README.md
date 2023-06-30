@@ -1,14 +1,14 @@
-### Pizza Pizza!
+# Pizza Pizza!
 
-# A CLI that let's users view a menu and order a slice of pizza
+### A CLI that let's users view a menu and order a slice of pizza
 
 Using SQLAlchemy, and Python, this application is seeded with a fixed menu and random customer data and allows users to add to the database or interact with the existing information.
 
-# Domain Model
+### Domain Model
 
 Pizza Menu —> Order <— Customer
 
-# Interface Design
+### Interface Design
 
 User are able to:
 
@@ -16,7 +16,7 @@ User are able to:
 2. See the menu
 3. Create a new order
 
-# Created by
+### Created by
 
 Morgan, Gina, and Justin
 Flatiron 2023
